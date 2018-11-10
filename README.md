@@ -15,7 +15,7 @@ time to avoid needing to write a new loading screen manually.
 
 ## Supported Platforms
 
-This plug-in was last built against **Unreal Engine 4.16**. It works on all platforms (probably).
+This plug-in was last built against **Unreal Engine 4.20**. It works on all platforms (probably).
 
 
 ## Dependencies
