@@ -2,16 +2,16 @@
 
 #include "SSimpleLoadingScreen.h"
 
-#include "SScaleBox.h"
+#include "Widgets/Layout/SScaleBox.h"
 #include "Widgets/Images/SImage.h"
 #include "Widgets/Layout/SSpacer.h"
 #include "Widgets/SOverlay.h"
 #include "Widgets/SBoxPanel.h"
 #include "Widgets/Text/STextBlock.h"
 #include "Widgets/Layout/SBorder.h"
-#include "SSafeZone.h"
-#include "SThrobber.h"
-#include "SDPIScaler.h"
+#include "Widgets/Layout/SSafeZone.h"
+#include "Widgets/Images/SThrobber.h"
+#include "Widgets/Layout/SDPIScaler.h"
 #include "Engine/Texture2D.h"
 #include "Engine/UserInterfaceSettings.h"
 

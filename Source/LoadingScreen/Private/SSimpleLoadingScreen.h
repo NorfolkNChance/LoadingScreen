@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "SCompoundWidget.h"
+#include "Widgets/SCompoundWidget.h"
 #include "LoadingScreenSettings.h"
 
 /**
@@ -17,10 +17,7 @@ struct FLoadingScreenBrush : public FSlateDynamicImageBrush, public FGCObject
 
 	virtual void AddReferencedObjects(FReferenceCollector& Collector) override
 	{
-		if ( ResourceObject )
-		{
-			Collector.AddReferencedObject(ResourceObject);
-		}
+		FSlateBrush::AddReferencedObjects(Collector);
 	}
 };
 
